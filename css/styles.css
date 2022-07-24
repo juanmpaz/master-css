@@ -73,6 +73,7 @@ text-decoration: none;
 .nav__close{
     display: var(--show, none);
 }
+
 /* Hero container */
 .hero__container{
     max-width: 800px;
@@ -98,4 +99,37 @@ text-decoration: none;
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
+}
+
+/* About */
+.about{
+    text-align: center;
+}
+.subtitle{
+    color: var(--color-tittle);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.about__paragraph{
+    line-height: 1.7;
+}
+.about__main{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+.about__icons{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.about__icon{
+    width: 40px;
 }
