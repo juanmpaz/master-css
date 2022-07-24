@@ -133,3 +133,29 @@ text-decoration: none;
 .about__icon{
     width: 40px;
 }
+
+/* Knowledge */
+.knowledge{
+    background-color: #e5e5f7;
+    background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    overflow: hidden;
+}
+.knowledge__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    align-items: center;
+}
+.knowledge_paragraph{
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+.knowledge__picture{
+    max-width: 500px;
+}
+.knowledge__img{
+    width: 100%;
+    display: block;
+}
